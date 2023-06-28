@@ -1,0 +1,12 @@
+body {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 60px;
+  background-color: antiquewhite;
+}
+
+a {
+  color: purple;
+  font-weight: 700px;
+  font-size: 40px;
+}
