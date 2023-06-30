@@ -1,15 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body {
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
   background-color: antiquewhite;
 }
 
+h4 {
+  margin-top: 20px;
+  display: inline-block;
+  width: 400px;
+}
+
+li {
+  list-style: none;
+}
+
 img {
-  width: 500px;
+  width: 300px;
   height: auto;
-  margin: auto;
-  display: block;
   border: 4px solid sienna;
+  margin-top: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.card {
+  width: 800px;
+  background-color: beige;
+  margin: auto;
+  border: 4px solid sienna; 
 }
 
 .title {
@@ -21,3 +44,10 @@ img {
   font-weight: normal;
   border: 4px solid sienna;
 }
+
+.ingredients {
+  display: inline-block;
+  padding: 15px;
+}
+
+  
